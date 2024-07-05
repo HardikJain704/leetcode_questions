@@ -30,6 +30,16 @@ mod test{
     
     }
 
+    #[test]
+    fn test_with_empty_string(){
+        let str = " ";
+        let res = reverse_words(str.to_owned());
+
+        assert_eq!("" , res);
+
+
+    }
+
 }
 
 
